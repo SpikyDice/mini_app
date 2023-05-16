@@ -185,7 +185,7 @@ module.exports = {
       };
 
       const token = jwt.sign(payload, "meong", { expiresIn: "1h" });
-
+      console.log(token);
       //define nodemailer detail for verification
       const mail = {
         from: "Administrator <gozalidonny@gmail.com>",
